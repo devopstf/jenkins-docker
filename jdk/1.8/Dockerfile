@@ -1,5 +1,8 @@
 FROM centos:centos7
 
+LABEL creator="odiadom - Óscar Díaz Domínguez"
+LABEL maintainer="DevOpsTF - DevOps Tenerife"
+
 # Variables para uso del Dockerfile
 ARG JDK_ZIP_NAME=jdk-8u151-linux-x64.tar.gz
 ARG JAVA_VERSION=1.8
