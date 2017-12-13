@@ -1,5 +1,8 @@
 FROM odiadom/jdk:1.8.0_151
 
+LABEL creator="odiadom - Óscar Díaz Domínguez"
+LABEL maintainer="DevOpsTF - DevOps Tenerife"
+
 # Variables de versión
 ARG TOMCAT_MAJOR=8
 ARG TOMCAT_VERSION=8.5.24
