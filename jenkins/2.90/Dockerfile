@@ -1,5 +1,8 @@
 FROM odiadom/tomcat-jdk1.8:8.5.24
 
+LABEL creator="odiadom - Óscar Díaz Domínguez"
+LABEL maintainer="DevOpsTF - DevOps Tenerife"
+
 # Variables to define Jenkins version and Jenkins Home directory
 ARG JENKINS_VERSION=2.90
 ARG JENKINS_HOME=/var/jenkins
