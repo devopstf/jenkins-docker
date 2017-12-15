@@ -9,12 +9,12 @@ Por último, sobre ésta imagen se baja un paquete WAR de la página oficial de 
 # Método de instalación
 
 Requisitos previos:
-- Docker instalado
-- Make instalado
+- [Docker](https://docs.docker.com/engine/installation/) instalado
+- [Make](https://www.gnu.org/software/make/) instalado
 
 Para construir las distintas imágenes tendremos que modificar el '*makefile*' a gusto y, tras ello, iniciarlo con las distintas opciones para construir una a una las imágenes, o simplemente lanzar el proceso general de instalación y que lo haga por orden y de manera automática:
 
-*- make build-jdk
-- make build-tomcat
-- make build-jenkins
-- make build-all*
+- *make build-jdk*
+- *make build-tomcat*
+- *make build-jenkins*
+- *make build-all*
